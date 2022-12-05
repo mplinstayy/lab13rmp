@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/dark_grey"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textColor="@color/dark_grey"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/delete_icon_red"
+        android:contentDescription="@string/delete_contact"
+        android:layout_gravity="end"
+        tools:ignore="TouchTargetSizeCheck" />
+</LinearLayout>
